@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Torres | Desenvolvedor</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 25px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #f8fafc;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 80px 20px;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h3 {
+            color: #94a3b8;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            color: #cbd5e1;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #0369a1;
+        }
+
+        section {
+            margin-top: 60px;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: 1px solid #334155;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Antonio Torres.</h2>
+
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="hero">
+            <h1>Olá, eu sou <span>Antonio Torres</span></h1>
+            <h3>Desenvolvedor & Programador</h3>
+
+            <p>
+                Sou apaixonado por tecnologia e desenvolvimento de software.
+                Gosto de transformar ideias em soluções digitais,
+                aprender novas tecnologias e criar projetos que
+                fazem a diferença.
+            </p>
+
+            <a href="#contato" class="button">Entre em contato</a>
+        </div>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou um profissional em constante aprendizado,
+                interessado em programação, desenvolvimento web
+                e inovação tecnológica. Busco aprimorar minhas
+                habilidades e desenvolver soluções criativas
+                e eficientes.
+            </p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Minhas habilidades</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>SQL</span>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contato</h2>
+
+            <p><strong>Nome:</strong> Antonio Torres</p>
+            <p><strong>Telefone:</strong> (31) 99999-9999</p>
+            <p><strong>Email:</strong> antonio.torres@email.com</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Antonio Torres. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
